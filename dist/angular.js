@@ -1,26 +1,6 @@
 // AngularJS v1.4.7 ie8 build
 
 (function () {
-
-  // detect IE8 one way or another
-  /*one way
-	var ie=function(){
-		for(var e,i=3,n=document.createElement("div"),t=n.getElementsByTagName("i");
-		n.innerHTML="<!--[if gt IE "+ ++i+"]><i></i><![endif]-->",t[0];);return i>4?i:e
-	}();
-	if (ie !== 8) {
-		// proper browsers exit here
-		return;
-	}
-  */
-
-  // another way
-  if (window.addEventListener) {
-    // proper browsers exit here
-    return;
-  }
-
-  // ie8 ftw...
   if (!window.XMLHttpRequest) {
     //console.log('XMLHttpRequest not enabled');
 
