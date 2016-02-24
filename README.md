@@ -17,15 +17,10 @@ AngularJS 1.3 / 1.4 does not work with IE8. With these custom builds you get goo
 	<meta charset="utf-8" />
 	<title>Angular 1.4 IE8</title>
 	<!--[if IE 8]>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.5/es5-shim.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.4.5/es5-shim.min.js"></script>
 		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-		<style>
-			.ng-hide {
-				display: none !important;
-			}
-		</style>
 	<![endif]-->
-	<script src="angular.js"></script>
+	<script src="path/to/angular.js"></script>
 </head>
 <body ng-app="someApp">
 
